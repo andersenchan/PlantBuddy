@@ -1,0 +1,151 @@
+/* for background */
+
+	body, html {
+	    height: 100%;
+	    margin: 0;
+		display: inline;
+	}
+
+	h3 {
+		margin: 0; padding: 0;
+		filter: blur(1px);
+  		-webkit-filter: blur(1px);
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		width: 30%;
+		font-family: 'Mina';
+		background-image: url("leaves-background.jpg");
+		background-blend-mode: hard-light;
+		font-size: 300%;
+	}
+
+	.bg {
+		/* position: fixed; */
+	}
+
+	.content {
+		/* position: fixed;
+		z-index: 2; */
+	}
+
+/* style parts of the legend, the controls and the elements in the stage appropriately */
+	td.mytd {
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	body {
+		background-image: url("leaves-background.jpg");
+
+		/* Full height */
+	    height: 100%;
+
+		/* Center and scale the image nicely */
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+
+		font-family: 'Lato';
+	}
+
+	table.game {
+		background-color: white;
+	}
+
+	h1 {
+		font: Comic Sans MS;
+		color: darkgray;
+		font-size: 200%;
+	}
+
+	p {
+		font: Comic Sans MS;
+		color:gray;
+	}
+
+/* buttons */
+
+	.box {
+		background-color: #92bf91;
+		border-color:none;
+		font-weight:bold;
+		color:#2a3f60;
+		font: Comic Sans MS;
+		-webkit-transition-duration: 0.4s;
+		transition-duration:0.4s;
+		border-radius: 8px;
+		cursor: pointer;
+		padding: 10px 20px;
+		/* padding-top: 4px;
+		padding-bottom: 4px; */
+	}
+
+	.box:hover {
+		background-color: #bfffaf;
+		border-color:ghostwhite;
+		font:bold;
+	}
+
+	/* .button:active {
+		background-color: #3e8e41;
+		box-shadow: 0 5px #666;
+		transform: translateY(4px);
+	} */
+
+/* Input Text Entry Boxes */
+
+	input {
+		margin: 4px 2px;
+	}
+
+/* menu */
+
+	#menu {
+		-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+		width: 20%;
+		padding-bottom: 5%;
+	}
+
+/* My Plants Table */
+
+	table.plantsTable {
+		border-collapse: collapse;
+		width: 80%;
+		font-family: 'Armata';
+
+	}
+
+	#plants {
+		padding-top: 5%;
+	}
+
+	#plantType {
+		width: 20%;
+	}
+
+	#plantName {
+		width: 35%;
+	}
+
+	#manualWater {
+		width: 25%;
+	}
+
+	th.plantsTable {
+		height: 50px;
+		background-color: #4CAF50;
+		border: 1px solid;
+	}
+
+	td.plantsTable {
+		border-style: solid;
+		border-width: 1px;
+		height: 40px;
+		padding-left: 16px;
+		background-color: #a1dda3;
+	}
+
+	tr:hover td {
+		background:#8cff9d
+	}

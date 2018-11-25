@@ -1,0 +1,18 @@
+# Setup for the files here
+
+npm init
+npm install --save express
+npm install body-parser --save
+npm install --save sqlite3
+
+nodejs ww_node.js
+
+# To install :
+
+cd ww/db
+rm database.db
+sqlite3 database.db < schema.sql
+cd ..
+npm install
+mv YOUR_PORT.js port.js
+nodejs ww_node.js
